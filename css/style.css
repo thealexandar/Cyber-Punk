@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+html, body {
+	font-family: 'Orbitron', sans-serif;
+	background-color: #100d23;
+}
+main {
+	height: 100vh;
+	padding-top: 7%;
+	padding-bottom: 3%;
+	color: #ff4081;
+	background-color: #100d23;
+}
+a {
+	color: #ff4081;
+}
+.underline {
+	text-decoration: underline;
+}
+h1 {
+	letter-spacing: 5px;
+	font-size: 6vw;
+}
+a:hover {
+	color: #FFF;
+}
+.item {
+	transition: 400ms ease;
+}
+.item:hover {
+	color: #FFF !important;
+}
+.list-group .item.done {
+	text-decoration: line-through;
+}
+.list-group li:hover .done-button {
+  opacity: 1 !important;
+}
+.done-button {
+	color: #ff4081;
+	opacity: 0.3;
+	font-size: 0.9em;
+}
+.fixedHeight {
+	max-height: 50vh;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.form-control {
+	background-color: transparent !important;
+	border-radius: 0 !important;
+	border-color: #ff4081 !important;
+	color: #ff4081 !important;
+}
+.btn-dark {
+	border-radius: 0 !important;
+	border-color: #ff4081;
+	color: #fff;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	background-color: #ff4081;
+}
+.btn-dark:hover {
+	background-color: transparent;
+	color: #ff4081;
+	border-color: #ff4081;
+}
+.form-control:focus,.form-control:active {
+   outline: none !important;
+   box-shadow: none;
+   -webkit-box-shadow: none
+}
+.list-group-item {
+	border-bottom-color: #ff4081;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom-right-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+
+
+
+@media (max-width: 767px) {
+
+
+	.nav-link {
+		padding-top: 0.5rem !important;
+	}
+	.title {
+		font-size: 1.5rem;
+		text-decoration: underline;
+	}
+	.date  {
+		font-size: 0.8rem;
+		padding-bottom: 0.5rem;
+	}
+
+
+}
